@@ -20,7 +20,7 @@
 				</div>
 				<div style="display:flex; justify-content: right;">
 					<p id="Podstrona"><a href="LoggedUser.php">STRONA GLOWNA</a></p>
-					<p id="Podstrona2">O NAS</p>
+					<p id="Podstrona2"><a href="#sekcja_2">O NAS</a></p>
 					<p id="Podstrona3"><a href="Passes.php">KUP KARNET</a></p>
 					<p id="Podstrona4"><a href="backend/log-out.php">WYLOGUJ</a></p>
 				</div>
@@ -114,20 +114,55 @@
 									<path id="Vector_55" opacity="0.03" d="M71.2482 143.726C69.015 143.283 66.7046 143.543 64.6159 144.471C63.3675 145.046 62.016 145.343 60.6493 145.343C59.2825 145.343 57.931 145.046 56.6826 144.471C55.2003 143.802 53.5953 143.473 51.9779 143.505C50.3606 143.538 48.7692 143.931 47.3133 144.659C46.4827 145.116 45.557 145.358 44.616 145.364C40.8159 145.364 37.6585 141.408 37 136.199C37.7576 135.627 38.4014 134.909 38.8961 134.086C41.1253 130.375 44.5763 128 48.4161 128C52.2558 128 55.6989 130.351 57.9361 134.012C58.6028 135.125 59.5383 136.04 60.6509 136.668C61.7636 137.295 63.0151 137.613 64.2827 137.591H64.3779C67.3529 137.567 69.9788 140.073 71.2482 143.726Z" fill="black"/>
 								</g>
 							</g>
-							
 						</svg>
 					</section>
-					
 				</div>
 				<div class="PrawyBok">
 					<div class="pionowyTekst">
-						PRZYKLAD
+						DOLACZ DO NAS
 					</div>
 					<div class="prawyTekst">
-						PRZYKL. TEKST
+						 JUZ <br />DZISIAJ!
 					</div>
 				</div>
 			</div>
+			 <section id="sekcja_2" class="rotated-background">
+				<p id="ONAS"> Nasza Silownia to w zasadzie trzy <br />
+				wydzielone strefy, w zaleznosci od<br /> planu treningowego i upodoban <br />cwiczeniowych naszych <br />Klubowiczow.</p>
+				<img id="Onas" src="grafiki/O nas.png">
+				<img id="Team" src="grafiki/Team.png">
+				<img id="Pasek" src="grafiki/pasek.png">
+				<img id="Zdjecia" src="grafiki/zdjecie.png">
+				<img id="Pasek" src="grafiki/pasek.png">
+			 </section>
+			 <section class="sekcja_1" >
+				<img id="Zespol" src="grafiki/zespol.png">
+			 </section>
+			 <section class="sekcja_1">
+			 <img id="Kwiatt" src="grafiki/kwiatt.png"><br />
+			 </section>
+			 <section id="sekcja_2" class="rotated-background" >
+				<img id="Vector" src="grafiki/Vector.png">
+				<img src="grafiki/kwiatek.png"><br />
+				<img id="Kalen"  src="grafiki/Kale.png">
+			 </section>
+			 <section class="sekcja_1">
+				<p id="Kalend"> KALENDARZ ZAJEC</p>
+				<div class="Kalendarz">
+					<img id="Kropka" src="grafiki/Vector1.png">
+					<img id="Kalendarz" src="grafiki/Kalendarz.png">
+				</div>
+			 </section>
+			 <section id="sekcja_2" class="rotated-background">
+				<p id="Lokalizacja"> LOKALIZACJA </p>
+				<img id="Lokalizacja1" src="grafiki/Lokalizacja1.png">
+				<img id="Lokalizacja2" src="grafiki/Lokalizacja2.png">
+			 </section>
+			 <section class="sekcja_1">
+				<img id="Dane" src="grafiki/Dane.png">
+				<img id="Dane2" src="grafiki/Dane2.png">
+			 </section>
+			 </section>
 		</section>
 		<script src="script.js"></script>
 	</body>

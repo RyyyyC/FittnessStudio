@@ -443,12 +443,14 @@ body{
             }
     }
     .Glowna_5{
-        height: 71vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 70vh;
         display: flex;
         justify-content: space-around;
         .LewyBok{
-            width: 50vw;
-            height: 71vh;
+            width: 30vw;
+            height: 70vh;
             .Animacja5{
                 margin: 17vh 2vw;
                 height: 50vh;
@@ -461,16 +463,34 @@ body{
             }
         }
         .PrawyBok{
-            width: 50vw;
-            height: 71vh;
+            width: 70vw;
+            height: 70vh;
             .PrawyBokCalosc{
                 margin-top: 6vh;
                 display: flex;
                 justify-content: space-around;
-                width: 40vw;
+                width: 55vw;
                 height: 60vh;
                 display: flex;
                 flex-wrap: wrap;
+                .napisPodsumowanie{
+                    width:55vw;
+                    height: 8vh;
+                    text-align: right;
+                    color: #FFFFFF;
+                    font-family: Rationale;
+                    font-size: 3vw;
+                    .tekstPodsumowanie{
+                        padding: 3vw 12vw 0 0;
+                    }
+                }
+                .Podsumowanie{
+                    width: 55vw;
+                    height: 52vh;
+                    background-image: url("grafiki/podsumowanie-tlo.png");
+                    background-size: 55vw;
+                    background-repeat: no-repeat;
+                }
             }
         }
     }
@@ -519,8 +539,8 @@ body{
 	font-family: Rationale;
 	font-size: 6.8vh;
 	float: right;
-	padding-right: 25vh;
-	padding-top: 7.4vh;
+	padding-right: 35vh;
+	padding-top: 12vh;
 	
 }
 #Kwiatek{
@@ -535,13 +555,30 @@ body{
 	margin-left: 0vw;
 	flex-wrap: wrap;
 }
-form{
-	position: absolute;
-	padding-left: 17vw;
-	padding-top: 14vh;
+.loginForm{
+    padding-top: 130px;
+    width: 50vw;
+    height: 20vh;
 	font-family: Rationale;
 	font-size: 2vh;
-	
+    display: flex;
+    justify-content: center;
+    .tlo-logowanie{
+        width: 50vw;
+        height: 70vh;
+        background-image: url("grafiki/komputer.png");
+        background-size: 50vw 70vh;
+        display: flex;
+        justify-content: center;
+    }
+    .tlo-logowanie-text{
+        margin-left: 8vw;
+        padding-top: 12vh;
+        input[type=text]{
+            font-family: Rationale;
+            color: #000000;
+        }
+    }
 }
 #Logow{
 	position: absolute;
@@ -556,7 +593,18 @@ form{
 	padding-top: 3vh;
 }
 #Lewa{
-	position: absolute;
+	height: 71vh;
+    width: 20vw;
+    background-image: url("grafiki/lewa.png");
+    background-size: 25vh ;
+    background-repeat:  no-repeat;
+}
+#Srodek{
+    height: 71vh;
+    width: 50vw;
+    background-image: url("grafiki/prawa.png");
+    background-size: 50vw ;
+    background-repeat:  no-repeat;
 }
 #Prawa{
 	padding-top: 3vh;
@@ -565,6 +613,96 @@ form{
 	padding-right: 10vw;
 }
 #rejestrowanie{
-	padding-left: 49vw;
-	padding-top: 6vh;
+    padding: 90px 430px;
+    width: 50vw;
+    input[type=text],input[type=tel],input[type=password],select{
+        margin: 0 0 7.25px 0;
+        background:none;
+        border:none;
+    }
+}
+#Onas{
+	padding-top: 15vh;
+	
+}
+#ONAS{
+	font-size: 3vw;
+	font-family: Rationale;
+	padding-top: 20vw;
+	color: white;
+	position: absolute;
+	padding-left: 10vw;
+}
+#Team{
+	position: absolute;
+  transform: scale(0.672);
+}
+#Zespol{
+	position: absolute;
+	padding-top: 150vh;
+	height: 100vh;
+	padding-left: 20vw;
+	
+}
+#Kwiatt{
+	position: absolute;
+	padding-top: 40vh;
+	
+}
+#Vector{
+	float: right;
+}
+#Kalen{
+	padding-top: 30vh;
+	padding-left: 20vw;
+}
+#Kalend{
+	font-size: 3vw;
+	font-family: Rationale;
+	padding-top: 25vw;
+	color: #928B8B;
+	position: absolute;
+	padding-left: 43vw;
+}
+#Kalendarz{
+	padding-top: 50vh;
+	padding-left: 17vw;
+	height: 100vh;
+	position: absolute;
+}
+#Kropka{
+	position: absolute;
+	padding-top: 20vh;
+	padding-left: 5vw;
+}
+#Lokalizacja{
+	font-size: 3vw;
+	font-family: Rationale;
+	padding-top: 30vw;
+	color: #928B8B;
+	position: absolute;
+	padding-left: 65vw;
+}
+#Lokalizacja1{
+	position: absolute;
+	padding-top: 70vh;
+	padding-left: 50vw;
+}
+#Lokalizacja2{
+	padding-top: 65vh;
+	padding-left: 3vw;
+	position: absolute;
+}
+#Dane{
+	padding-top: 30vh;
+	padding-left: 3vw;
+	position: absolute;
+	
+}
+#Dane2{
+	padding-top: 35vh;
+	padding-left: 40vw;
+}
+#Drzewka{
+	padding-top: 5vh;
 }

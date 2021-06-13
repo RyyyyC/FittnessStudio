@@ -95,6 +95,11 @@
         </div>
         <div class="PrawyBok">
             <div class="PrawyBokCalosc">
+                <div class="Podsumowanie">
+                    <div class="napisPodsumowanie">
+                        <p class="tekstPodsumowanie">PODSUMOWANIE:</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

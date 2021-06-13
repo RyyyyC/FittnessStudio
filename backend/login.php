@@ -23,20 +23,25 @@
 				<img id="Ikona" src="../grafiki/facebook.png" >
 			</div>
 			<div class="Tlo">
+			<p id="Zaloguj"> ZALOGUJ SIE </p>
 				<div class="Logowanie">
-					<img id="Logow" src="../grafiki/Login.png">
-					<img id="Komputer" src="../grafiki/komputer.png" width="800px">
-					<form method="POST" action="accont.php">
-						<input type="checkbox" id="" name="" value=""> ZAPAMIETAJ MNIE<br /><br />
-						<input name="login" style="background: none; border:none;"placeholder="Login" style="margin-bottom: 1vh; border: 2px solid black; border-radius: 2px;height:2.5vh;"><br />
-						<input name="password" style="background: none; border:none;"type="password" placeholder="********" style=" border: 2px solid black; border-radius: 2px;height:3vh;"><br /><br /><br /><br />
-						<input type="submit" value="ZALOGUJ" style="text-decoration:none; border: solid 1px black; background-color: lightgray; padding: 5px;font-family: Rationale; color: white;">
-						<a id="Rejestruj" href="registerForm.php" style="text-decoration:none; border: solid 1px black; background-color: lightgray; padding: 5px;font-family: Rationale;" value="">ZAREJESTRUJ</a>
-						<a id="" href="registerForm.php" style="text-decoration:none; border: solid 1px black; background-color: lightgray; padding: 5px;font-family: Rationale;" value="">ODZYSKAJ HASLO</a>
+					<img id="Logow"  style="z-index: -1;"  src="../grafiki/Login.png">
+					
+					<form method="POST" action="accont.php" class="loginForm">
+						<div class="tlo-logowanie">
+							<div class="tlo-logowanie-text">
+								<input type="checkbox" id="" name="" value=""> ZAPAMIETAJ MNIE<br /><br />
+								<input name="login" style="background: none; border:none; margin: 10px 0;padding-left:35px;"placeholder="Login" ><br />
+								<input name="password" style="background: none; border:none; margin: 10px 0;padding-left:35px;"type="password" placeholder="********" ><br /><br /><br /><br />
+								<input type="submit" value="ZALOGUJ" style="text-decoration:none; border: none; background: none; font-family: Rationale; font-size:2vh; color: white;">
+								<a id="Rejestruj" href="registerForm.php"style="padding: 0 15px;" value="">ZAREJESTRUJ</a>
+								<a id="" href="registerForm.php" value="">ODZYSKAJ HASLO</a>
+							</div>
+						</div>
 					</form>
 				</div>
 				<img id="Kwiatek" src="../grafiki/kwiat.png">
-				<p id="Zaloguj"> ZALOGUJ SIE </p>
+				
 				
 			</div>
 	</body>
