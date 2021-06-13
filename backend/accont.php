@@ -1,5 +1,6 @@
 <?php
     session_start();
+
     $login = $_POST["login"];
     $pwd = $_POST["password"];
 
@@ -20,10 +21,15 @@
         if($login == $user['login'] && md5($pwd) == $user['haslo']){
             echo $user['login']." | ".$user['haslo'];
             $_SESSION['userID'] = $user['id'] ;
-            if($user['pozycja'] != '0'){
+            if($user['pozycja'] == '0'){
+                $id = $user['id'];
                 header("Location: ../LoggedUser.php");
-            }else{
-                header("Location: ../LoggedUser.php");
+            }elseif($user['pozycja'] == '1'){
+                $_SESSION['userID'] = $user['id'];
+                header("Location: ../LoggedUserInstruktor.php");
+            }elseif($user['pozycja'] == '2'){
+                $_SESSION['userID'] = $user['id'];
+                header("Location: ../LoggedUserAdmin.php");
             }
             break;
         }

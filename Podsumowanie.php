@@ -98,6 +98,26 @@
                 <div class="Podsumowanie">
                     <div class="napisPodsumowanie">
                         <p class="tekstPodsumowanie">PODSUMOWANIE:</p>
+                        <line>
+                            <div class="wartosciPodsumowanie"><p>Imie: </p><p><?php echo $_SESSION['imie']?></p></div>
+                            <div class="wartosciPodsumowanie"><p>Nazwisko: </p><p><?php echo $_SESSION['nazwisko']?></p></div>
+                            <div class="wartosciPodsumowanie"><p>Numer Telefonu: </p><p><?php echo $_SESSION['numerKierunkowy']." ".$_SESSION['numerTlefonu']?></p></div>
+                        </line>
+                        <line>
+                            <div class="wartosciPodsumowanie"><p>Email: </p><p><?php echo $_SESSION['email']?></p></div>
+                            <div class="wartosciPodsumowanie"><p>Data rozpoczecia: </p><p><?php echo $_SESSION['data-rozpoczecia']?></p></div>
+                        </line>
+                        <line>
+                            <div class="wartosciPodsumowanie"><p>Typ Karnetu: </p><p><?php echo $_SESSION['typKarnet']?></p></div>
+                            <div class="wartosciPodsumowanie"><p>Cena: </p><p><?php echo $_SESSION['kosztKarnet']?></p></div>
+                        </line>
+                        <line>
+                            <div class="wartosciPodsumowanie"><p>Numer Karty: </p><p><?php echo $_SESSION['numer-karty']?></p></div>
+                            <div class="wartosciPodsumowanie"><p>Imie Nazwisko posiadacza: </p><p><?php echo $_SESSION['imie-nazwisko-karta']?></p></div>
+                        </line>
+                        <line>
+                            <a href="backend/buyPass.php"><div>KUP</div></a>
+                        </line>
                     </div>
                 </div>
             </div>

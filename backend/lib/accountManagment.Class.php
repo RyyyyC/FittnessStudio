@@ -1,4 +1,6 @@
 <?php
+
+
 class Crud
 {
     private $server = "54.38.50.59";
@@ -136,6 +138,47 @@ class Crud
             return true;
         }else{
             echo "Nie udalo sie!";
+            return false;
+        }
+    }
+
+    public function selectUser($id){
+
+        $imie = $_SESSION['imie'];
+        $nazwisko = $_SESSION['nazwisko'];
+        $tel =  "+".$_SESSION['numerKierunkowy']." ".$_SESSION['numerTlefonu'];
+        $data_kupna = $_SESSION['data-rozpoczecia'];
+        $email = $_SESSION['email'];
+        
+        
+
+        $passID_String = $_SESSION['typKarnet'];
+        if($passID_String == 'Karnet 24H'){
+            $passID = 1;
+            $data_zakonczenia = date('Y-m-d', strtotime($data_kupna. ' + 1 days'));
+        }elseif($passID_String == 'Karent 7 Dni'){
+            $passID = 2;
+            $data_zakonczenia = date('Y-m-d', strtotime($data_kupna. ' + 7 days'));
+        }elseif($passID_String == 'Karent 1 Miesiac'){
+            $passID = 3;
+            $data_zakonczenia = date('Y-m-d', strtotime($data_kupna. ' + 1 months'));
+        }elseif($passID_String== 'Karent Kwartalny'){
+            $passID = 4;
+            $data_zakonczenia = date('Y-m-d', strtotime($data_kupna. ' + 3 months'));
+        }elseif($passID_String == 'Karent Roczny'){
+            $passID = 5;
+            $data_zakonczenia = date('Y-m-d', strtotime($data_kupna. ' + 1 years'));
+        }else{
+            $passID = 0;
+        }
+        $sql = "UPDATE Klient SET `imie` = $imie, `nazwisko` = $nazwisko, `email` = '$email', `tel` = '$tel', `data_kupna` =  '$data_kupna', `data_zakonczenia` = '$data_zakonczenia', `karnet_id` = $passID WHERE `id` = $id";
+        $query = $this->con->query($sql);
+        if($query){
+            header("Location: ../LoggedUser.php");
+            return true;
+        }else{
+            echo $tel;
+            echo "dupa cyce sycewice nie działa";
             return false;
         }
     }

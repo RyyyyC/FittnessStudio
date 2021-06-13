@@ -483,6 +483,16 @@ body{
                     .tekstPodsumowanie{
                         padding: 3vw 12vw 0 0;
                     }
+                    .wartosciPodsumowanie{
+                        text-align: left;
+                        display: flex;
+                        font-size: 2vw;
+                    }
+                    line{
+                        display: flex;
+                        justify-content: space-around;
+                        margin-top:15px;
+                    }
                 }
                 .Podsumowanie{
                     width: 55vw;
@@ -490,6 +500,41 @@ body{
                     background-image: url("grafiki/podsumowanie-tlo.png");
                     background-size: 55vw;
                     background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+    .Glowna_6{
+        display: flex;
+        .LewyBok{
+            display: flex;
+            justify-content: space-around;
+            width: 50vw;
+            height: 84vh;
+            .zajeciaMenu{
+                width: 30vw;
+                height: 84vh;
+                background-repeat: no-repeat;
+                background-size: 43vh;
+                background-image: url("grafiki/zajecia.png");
+            }
+        }
+        .PrawyBok{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 50vw;
+            height: 84vh;
+            table{
+                tr{
+                    td{
+                        width:100px;
+                        height: 75px;
+                        background-color: white;
+                    }
+                    #empty{
+                        background: none;
+                    }
                 }
             }
         }
