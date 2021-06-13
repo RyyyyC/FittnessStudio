@@ -275,6 +275,7 @@ body .Glowna_3 {
 }
 
 body .Glowna_3 .LewyBok {
+  width: 50vw;
   height: 87vh;
 }
 
@@ -298,40 +299,27 @@ body .Glowna_3 .PrawyBok {
 }
 
 body .Glowna_3 .PrawyBok .PrawyBokCalosc {
-  margin-top: 15vh;
+  margin-top: 12vh;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 40vw;
+  height: 60vh;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .textDane {
-  width: 30vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #000000;
-  font-size: 1.4vw;
-  font-family: Rationale;
-}
-
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .textDane input[type=text] {
-  background: none;
-  border: none;
-  color: #FFFFFF;
-  font-size: 1.4vw;
-  font-family: Rationale;
-}
-
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup {
+body .Glowna_3 .daneZakup {
   width: 30vw;
   height: 40vh;
   background-image: url("grafiki/dane-zakup.png");
   background-size: 30vw 40vh;
 }
 
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_1 {
+body .Glowna_3 .daneZakup .linia_1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -341,7 +329,7 @@ body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_1 {
   margin: 25px 0;
 }
 
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_2, body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_3, body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_4, body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_5 {
+body .Glowna_3 .daneZakup .linia_2, body .Glowna_3 .daneZakup .linia_3, body .Glowna_3 .daneZakup .linia_4, body .Glowna_3 .daneZakup .linia_5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,47 +338,47 @@ body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_2, body .Glowna_3 .Pr
   margin: 25px 0;
 }
 
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .shortinput {
+body .Glowna_3 .daneZakup .shortinput {
   color: #000000;
   font-size: 1.4vw;
   font-family: Rationale;
-  background: #C4C4C4;
+  background-color: #C4C4C4;
   border: none;
   width: 10vw;
   height: 5vh;
 }
 
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .midinput {
+body .Glowna_3 .daneZakup .midinput {
   color: #000000;
   font-size: 1.4vw;
   font-family: Rationale;
-  background: #C4C4C4;
+  background-color: #C4C4C4;
   border: none;
   width: 15vw;
   height: 5vh;
 }
 
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .halfinput {
+body .Glowna_3 .daneZakup .halfinput {
   color: #000000;
   font-size: 1.4vw;
   font-family: Rationale;
-  background: #C4C4C4;
+  background-color: #C4C4C4;
   border: none;
   width: 13vw;
   height: 5vh;
 }
 
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .long {
+body .Glowna_3 .daneZakup .long {
   color: #000000;
   font-size: 1.4vw;
   font-family: Rationale;
-  background: #C4C4C4;
+  background-color: #C4C4C4;
   border: none;
   width: 27.5vw;
   height: 5vh;
 }
 
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .dalej {
+body .Glowna_3 .dalej {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -402,9 +390,8 @@ body .Glowna_3 .PrawyBok .PrawyBokCalosc .dalej {
   line-height: 5vh;
 }
 
-body .Glowna_3 .PrawyBok .PrawyBokCalosc .dalej .przyciskDalej {
+body .Glowna_3 .dalej .przyciskDalej {
   border-radius: 5px;
-  margin-top: 10px;
   width: 10vw;
   height: 5vh;
   color: #000000;
@@ -413,7 +400,180 @@ body .Glowna_3 .PrawyBok .PrawyBokCalosc .dalej .przyciskDalej {
   background: #C4C4C4;
 }
 
-body .Proces {
+.Glowna_4 {
+  height: 87vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Glowna_4 .LewyBok {
+  width: 50vw;
+  height: 87vh;
+}
+
+.Glowna_4 .LewyBok .Animacja3 {
+  margin: 15vh;
+  margin-left: 2vw;
+  height: 50vh;
+  width: 50vw;
+  text-align: center;
+  font-family: Rationale;
+  color: #969090;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scaleY(0.9) scaleX(0.9);
+          transform: scaleY(0.9) scaleX(0.9);
+}
+
+.Glowna_4 .PrawyBok {
+  width: 50vw;
+  height: 87vh;
+}
+
+.Glowna_4 .PrawyBok .PrawyBokCalosc {
+  margin-top: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 40vw;
+  height: 60vh;
+  background-image: url("grafiki/tlo-platnosc.png");
+  background-size: 40vw 60vh;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Glowna_4 .PrawyBok .danePlatnicze {
+  margin-top: 15vh;
+  width: 30vw;
+  height: 20vh;
+  background-image: url("grafiki/formularz-dane-platnicze.png");
+  background-size: 30vw 20vh;
+}
+
+.Glowna_4 .PrawyBok .danePlatnicze .linia_1, .Glowna_4 .PrawyBok .danePlatnicze .linia_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 25px 0;
+}
+
+.Glowna_4 .PrawyBok .danePlatnicze .linia_1 .halfinput, .Glowna_4 .PrawyBok .danePlatnicze .linia_2 .halfinput {
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background-color: #C4C4C4;
+  border: none;
+  width: 13vw;
+  height: 5vh;
+}
+
+.Glowna_4 .PrawyBok .danePlatnicze .przyciskKup {
+  font-size: 1.4vw;
+  font-family: Rationale;
+  color: #FFFFFF;
+  width: 30vw;
+  height: 5vh;
+  background-image: url("grafiki/przycisk-kup.png");
+}
+
+.Glowna_4 .PrawyBok .daneZakup {
+  width: 30vw;
+  height: 40vh;
+  background-image: url("grafiki/dane-zakup.png");
+  background-size: 30vw 40vh;
+}
+
+.Glowna_4 .PrawyBok .daneZakup .linia_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px 0;
+}
+
+.Glowna_4 .PrawyBok .daneZakup .linia_2, .Glowna_4 .PrawyBok .daneZakup .linia_3, .Glowna_4 .PrawyBok .daneZakup .linia_4, .Glowna_4 .PrawyBok .daneZakup .linia_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 25px 0;
+}
+
+.Glowna_4 .PrawyBok .daneZakup .shortinput {
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background-color: #C4C4C4;
+  border: none;
+  width: 10vw;
+  height: 5vh;
+}
+
+.Glowna_4 .PrawyBok .daneZakup .midinput {
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background-color: #C4C4C4;
+  border: none;
+  width: 15vw;
+  height: 5vh;
+}
+
+.Glowna_4 .PrawyBok .daneZakup .halfinput {
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background-color: #C4C4C4;
+  border: none;
+  width: 13vw;
+  height: 5vh;
+}
+
+.Glowna_4 .PrawyBok .daneZakup .long {
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background-color: #C4C4C4;
+  border: none;
+  width: 27.5vw;
+  height: 5vh;
+}
+
+.Glowna_4 .PrawyBok .dalej {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30vw;
+  text-align: center;
+  line-height: 5vh;
+}
+
+.Glowna_4 .PrawyBok .dalej .przyciskDalej {
+  border-radius: 5px;
+  width: 10vw;
+  height: 5vh;
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background: #C4C4C4;
+}
+
+.Proces {
   padding-top: 3vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -425,7 +585,7 @@ body .Proces {
   height: 10vh;
 }
 
-body .Proces .box {
+.Proces .box {
   width: 15vw;
   height: 10vh;
   background-color: #C4C4C4;
@@ -433,7 +593,7 @@ body .Proces .box {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-body .Proces .box .tekst-box {
+.Proces .box .tekst-box {
   font-size: 2.5vw;
   line-height: 10vh;
   font-family: Rationale;
@@ -441,11 +601,11 @@ body .Proces .box .tekst-box {
   color: #A39C9C;
 }
 
-body .Proces .box .two-line {
+.Proces .box .two-line {
   line-height: 5vh;
 }
 
-body .Proces .strzalka {
+.Proces .strzalka {
   width: 10vw;
   height: 10vh;
   font-size: 3vw;
@@ -453,7 +613,7 @@ body .Proces .strzalka {
   text-align: center;
 }
 
-body a:visited, body a:link {
+a:visited, a:link {
   text-decoration: none;
   color: white;
 }

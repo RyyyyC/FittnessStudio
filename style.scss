@@ -210,6 +210,7 @@ body{
         display: flex;
         justify-content: space-around;
         .LewyBok{
+            width: 50vw;
             height: 87vh;
             .Animacja3{
                 margin: 15vh;
@@ -227,23 +228,18 @@ body{
             width: 50vw;
             height: 87vh;
             .PrawyBokCalosc{
-                margin-top:15vh;
+                margin-top: 12vh;
+                display: flex;
+                justify-content: space-around;
+                width: 40vw;
+                height: 60vh;
+                //background-image: url("grafiki/tlo-platnosc.png");
+                //background-size: 40vw 60vh;
                 display: flex;
                 flex-wrap: wrap;
-                .textDane{
-                    width: 30vw;
-                    display: flex;
-                    color: #000000;
-                    font-size: 1.4vw;
-                    font-family: Rationale;
-                    input[type=text]{
-                        background: none;
-                        border: none;
-                        color: #FFFFFF;
-                        font-size: 1.4vw;
-                        font-family: Rationale;
-                    }
-                }
+            }
+            
+            }
                 .daneZakup{
                     width: 30vw;
                     height: 40vh;
@@ -263,7 +259,7 @@ body{
                         color: #000000;
                         font-size: 1.4vw;
                         font-family: Rationale;
-                        background: #C4C4C4;
+                        background-color: #C4C4C4;
                         border: none;
                         width: 10vw;
                         height: 5vh;
@@ -272,7 +268,7 @@ body{
                         color: #000000;
                         font-size: 1.4vw;
                         font-family: Rationale;
-                        background: #C4C4C4;
+                        background-color: #C4C4C4;
                         border: none;
                         width: 15vw;
                         height: 5vh;
@@ -281,7 +277,7 @@ body{
                         color: #000000;
                         font-size: 1.4vw;
                         font-family: Rationale;
-                        background: #C4C4C4;
+                        background-color: #C4C4C4;
                         border: none;
                         width: 13vw;
                         height: 5vh;
@@ -290,7 +286,7 @@ body{
                         color: #000000;
                         font-size: 1.4vw;
                         font-family: Rationale;
-                        background: #C4C4C4;
+                        background-color: #C4C4C4;
                         border: none;
                         width: 27.5vw;
                         height: 5vh;
@@ -305,7 +301,6 @@ body{
                    
                     .przyciskDalej{
                         border-radius: 5px;
-                        margin-top:10px;
                         width: 10vw;
                         height: 5vh;
                         color: #000000;
@@ -316,7 +311,140 @@ body{
                 }
             }
         }
-    }
+    .Glowna_4{
+        
+        height: 87vh;
+        display: flex;
+        justify-content: space-around;
+        .LewyBok{
+            width: 50vw;
+            height: 87vh;
+            .Animacja3{
+                margin: 15vh;
+                margin-left:2vw;
+                height: 50vh;
+                width: 50vw;
+                text-align: center;
+                font-family: Rationale;
+                color: #969090;
+                transform-origin: 0 0;
+                transform: scaleY(0.9) scaleX(0.9);
+            }
+        }
+        .PrawyBok{
+            width: 50vw;
+            height: 87vh;
+            .PrawyBokCalosc{
+                margin-top: 6vh;
+                display: flex;
+                justify-content: space-around;
+                width: 40vw;
+                height: 60vh;
+                background-image: url("grafiki/tlo-platnosc.png");
+                background-size: 40vw 60vh;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .danePlatnicze{
+                margin-top: 15vh;
+                width: 30vw;
+                height: 20vh;
+                background-image: url("grafiki/formularz-dane-platnicze.png");
+                background-size: 30vw 20vh;
+                .linia_1, .linia_2{
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 25px 0;
+                    .halfinput{
+                        color: #000000;
+                        font-size: 1.4vw;
+                        font-family: Rationale;
+                        background-color: #C4C4C4;
+                        border: none;
+                        width: 13vw;
+                        height: 5vh;
+                    }
+                }
+                .przyciskKup{
+                    font-size: 1.4vw;
+                    font-family: Rationale;
+                    color: #FFFFFF;
+                    width: 30vw;
+                    height: 5vh;
+                    background-image: url("grafiki/przycisk-kup.png");
+                }
+            }
+                .daneZakup{
+                    width: 30vw;
+                    height: 40vh;
+                    background-image: url("grafiki/dane-zakup.png");
+                    background-size: 30vw 40vh;
+                    .linia_1{
+                        display: flex;
+                        justify-content: center;
+                        margin: 25px 0;
+                    }
+                    .linia_2, .linia_3, .linia_4, .linia_5{
+                        display: flex;
+                        justify-content: space-around;
+                        margin: 25px 0;
+                    }
+                    .shortinput{
+                        color: #000000;
+                        font-size: 1.4vw;
+                        font-family: Rationale;
+                        background-color: #C4C4C4;
+                        border: none;
+                        width: 10vw;
+                        height: 5vh;
+                    }
+                    .midinput{
+                        color: #000000;
+                        font-size: 1.4vw;
+                        font-family: Rationale;
+                        background-color: #C4C4C4;
+                        border: none;
+                        width: 15vw;
+                        height: 5vh;
+                    }
+                    .halfinput{
+                        color: #000000;
+                        font-size: 1.4vw;
+                        font-family: Rationale;
+                        background-color: #C4C4C4;
+                        border: none;
+                        width: 13vw;
+                        height: 5vh;
+                    }
+                    .long{
+                        color: #000000;
+                        font-size: 1.4vw;
+                        font-family: Rationale;
+                        background-color: #C4C4C4;
+                        border: none;
+                        width: 27.5vw;
+                        height: 5vh;
+                    }
+                }
+                .dalej{
+                    display: flex;
+                    justify-content: center;
+                    width: 30vw;
+                    text-align: center;
+                    line-height: 5vh;
+                   
+                    .przyciskDalej{
+                        border-radius: 5px;
+                        width: 10vw;
+                        height: 5vh;
+                        color: #000000;
+                        font-size: 1.4vw;
+                        font-family: Rationale;
+                        background: #C4C4C4;
+                    }
+                }
+            }
+        }
     .Proces{
         padding-top: 3vh;
         justify-content: center;
@@ -351,7 +479,6 @@ body{
         text-decoration: none;
         color: white;
     }
-}
 * {
     padding: 0px;
     margin: 0px;
