@@ -13,7 +13,7 @@
 		</title>
 	</head>
 	<body>
-		<section>
+		<section  id="sekcja_1">
 			<div class="Naglowek">
 				<div style="width: 70vw;">
 					<p id = "Logo">FITNESSSTUDIO</p>
@@ -150,7 +150,7 @@
                                 <path id="Vector_51" opacity="0.07" d="M262.147 326.861C259.473 322.59 255.303 319.468 250.451 318.103C245.6 316.739 240.414 317.231 235.905 319.483C244.285 325.78 253.53 327.461 262.147 326.861Z" fill="white"/>
                                 <path id="Vector_52" opacity="0.07" d="M276.33 323.136C278.999 318.865 283.164 315.743 288.012 314.378C292.859 313.014 298.042 313.506 302.546 315.757C294.185 322.028 284.948 323.703 276.33 323.136Z" fill="white"/>
                                 <path id="Vector_53" opacity="0.1" d="M226.45 286.594L231.58 318.744C231.58 318.744 226.305 334.51 231.58 350.024C236.854 365.539 225.072 423.338 225.072 423.338C225.072 423.338 286.88 443.119 324.635 420.338C324.635 420.338 296.863 361.787 308.619 342.27C320.375 322.753 308.817 315.118 308.817 315.118L310.623 279.209L302.118 276.71L297.113 312.243C297.113 312.243 262.583 336.264 237.059 315.243L231.553 276.71L226.45 286.594Z" fill="black"/>
-                                <path id="Vector_54" d="M226.199 286.343L231.58 319.245C231.58 319.245 226.305 335.011 231.58 350.525C236.854 366.04 225.072 423.839 225.072 423.839C225.072 423.839 286.88 443.62 324.635 420.839C324.635 420.839 296.863 362.282 308.619 342.765C320.375 323.248 308.817 315.619 308.817 315.619L310.623 279.71L302.118 277.211L297.113 312.744C297.113 312.744 262.583 336.764 237.059 315.744L231.553 277.211L226.199 286.343Z" fill="#332D2C"/>
+                                <path id="Vector_54" d="M226.199 286.343L231.58 319.245C231.58 319.245 226.305 335.011 231.58 350.525C236.854 366.04 225.072 423.839 225.072 423.839C225.072 423.839 286.88 443.62 324.635 420.839C324.635 420.839 296.863 362.282 308.619 342.765C320.375 323.248 308.817 315.619 308.817 315.619L310.623 279.71L302.118 277.211L297.113 312.744C297.113 312.744 262.583 336.764 237.059 315.744L231.553 277.211L226.199 286.343Z" fill="#6C63FF"/>
                                 <path id="Vector_55" d="M251.598 436.097L264.607 434.336C264.607 434.336 279.62 415.07 290.381 429.833C290.381 429.833 294.884 439.341 300.39 441.088C304.155 442.228 308.005 443.066 311.903 443.594L289.629 449.851C289.629 449.851 279.871 455.607 269.611 454.104C263.572 453.18 257.4 453.695 251.598 455.607V436.097Z" fill="#F7C4A7"/>
                                 <path id="Vector_56" opacity="0.1" d="M237.21 354.402C237.21 354.402 260.73 357.904 264.732 351.653L237.21 354.402Z" fill="black"/>
                                 <path id="Vector_57" opacity="0.1" d="M281.75 350.4C281.75 350.4 286.254 354.903 304.267 351.653L281.75 350.4Z" fill="black"/>
@@ -177,64 +177,75 @@
                     </section>
                 </div>
                 <div class="PrawyBok">
-                    <div class="KartaKarnet">
-                        <p class="Tytul-Karent">KARNET 24H</p>
-                        <hr>
-                        <p class="opis-Karnet">OPIS</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="cena-Karnet">CENA</p>
-                        <p class="cena-Karnet">29.99 zl</p>
-                    </div>
-                    <div class="KartaKarnet">
-                        <p class="Tytul-Karent">KARNET 7 dni</p>
-                        <hr>
-                        <p class="opis-Karnet">OPIS</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="cena-Karnet">CENA</p>
-                        <p class="cena-Karnet">149.99 zl</p>
-                    </div>
-                    <div class="KartaKarnet">
-                        <p class="Tytul-Karent">KARNET 1 miesiąc</p>
-                        <hr>
-                        <p class="opis-Karnet">OPIS</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="cena-Karnet">CENA</p>
-                        <p class="cena-Karnet">300.99 zl</p>
-                    </div>
-                    <div class="KartaKarnet">
-                        <p class="Tytul-Karent">KARNET kwartalny</p>
-                        <hr>
-                        <p class="opis-Karnet">OPIS</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="cena-Karnet">CENA</p>
-                        <p class="cena-Karnet">549.99 zl</p>
-                    </div>
-                    <div class="KartaKarnet">
-                        <p class="Tytul-Karent">KARNET roczny</p>
-                        <hr>
-                        <p class="opis-Karnet">OPIS</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="opis-Karnet">-</p>
-                        <p class="cena-Karnet">CENA</p>
-                        <p class="cena-Karnet">999.99 zl</p>
-                    </div>
+                    <a href="#sekcja_2">
+                        <div class="KartaKarnet" href="#sekcja_2">
+                            <p class="Tytul-Karent">KARNET 24H</p>
+                            <hr>
+                            <p class="opis-Karnet">OPIS</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="cena-Karnet">CENA</p>
+                            <p class="cena-Karnet">29.99 zl</p>
+                        </div>
+                    </a>
+                    <a href="#sekcja_2">
+                        <div class="KartaKarnet" href="#sekcja_2">
+                            <p class="Tytul-Karent">KARNET 7 dni</p>
+                            <hr>
+                            <p class="opis-Karnet">OPIS</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="cena-Karnet">CENA</p>
+                            <p class="cena-Karnet">149.99 zl</p>
+                        </div>
+                    </a>
+                    <a href="#sekcja_2">
+                        <div class="KartaKarnet" href="#sekcja_2">
+                            <p class="Tytul-Karent">KARNET 1 miesiąc</p>
+                            <hr>
+                            <p class="opis-Karnet">OPIS</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="cena-Karnet">CENA</p>
+                            <p class="cena-Karnet">300.99 zl</p>
+                        </div>
+                    </a>
+                    <a href="#sekcja_2">
+                        <div class="KartaKarnet" href="#sekcja_2">
+                            <p class="Tytul-Karent">KARNET kwartalny</p>
+                            <hr>
+                            <p class="opis-Karnet">OPIS</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="cena-Karnet">CENA</p>
+                            <p class="cena-Karnet">549.99 zl</p>
+                        </div>
+                    <a href="#sekcja_2">
+                        <div class="KartaKarnet" >
+                            <p class="Tytul-Karent">KARNET roczny</p>
+                            <hr>
+                            <p class="opis-Karnet">OPIS</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="opis-Karnet">-</p>
+                            <p class="cena-Karnet">CENA</p>
+                            <p class="cena-Karnet">999.99 zl</p>
+                        </div>
+                    </a>
                 </div>
 		    </div>	
 		</section>
+        <section id="sekcja_2">
+        </section>
 		<script src="script.js"></script>
 	</body>
 </html>

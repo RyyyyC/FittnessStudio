@@ -1,8 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   background-image: url("grafiki/background-body.png");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
+}
+
+body section {
+  width: 100vw;
+  height: 100vh;
 }
 
 body .Naglowek {
@@ -193,7 +202,7 @@ body .Glowna_2 .PrawyBok .KartaKarnet {
 }
 
 body .Glowna_2 .PrawyBok .KartaKarnet .Tytul-Karent {
-  margin: 1.9vw;
+  margin: 0 1.9vw 1.9vw 1.9vw;
   font-size: 2.5vw;
   color: #FFFFFF;
   text-align: center;
@@ -220,6 +229,11 @@ body .Glowna_2 .PrawyBok .KartaKarnet .cena-Karnet {
   font-family: Rationale;
 }
 
+body .Glowna_2 .PrawyBok a {
+  margin: 0;
+  padding: 0;
+}
+
 body .Glowna_2 .LewyBok {
   height: 0vh;
   width: 30vw;
@@ -229,6 +243,8 @@ body .Glowna_2 .LewyBok {
 }
 
 body .Glowna_2 .LewyBok .Animacja2 {
+  margin-left: 2vw;
+  margin-bottom: 5vh;
   height: 50vh;
   width: 35vw;
   text-align: center;
@@ -236,8 +252,8 @@ body .Glowna_2 .LewyBok .Animacja2 {
   color: #969090;
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
-  -webkit-transform: scaleY(0.9) scaleX(0.9);
-          transform: scaleY(0.9) scaleX(0.9);
+  -webkit-transform: scaleY(0.6) scaleX(0.6);
+          transform: scaleY(0.6) scaleX(0.6);
 }
 
 body .Glowna_2 .LewyBok .Animacja2 .Akutalnosci {
