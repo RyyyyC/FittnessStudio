@@ -15,7 +15,7 @@
 					<p id = "Logo">FITNESSSTUDIO</p>
 				</div>
 				<div style="display:flex; justify-content: right;">
-					<p id="Podstrona">STRONA GLOWNA</p>
+					<p id="Podstrona"><a href="notLogged.php">STRONA GLOWNA</a></p>
 					<p id="Podstrona2">O NAS</p>
 					<p id="Podstrona3"><a href="backend/login.php">KUP KARNET</a></p>
 					<p id="Podstrona4"><a href="backend/login.php">ZALOGUJ SIE</a></p>
@@ -112,13 +112,6 @@
 							</g>
 							
 						</svg>
-						<div style="margin-top: 15px; margin-left: -200px;">
-							<p style="z-index: 10;">Akutalnosci</p>
-							<div class="Akutalnosci">
-								
-								<img src="grafiki/Aktualnosci.png" class="Akutalnosci_PNG" >
-							</div>
-						</div>
 					</section>
 					
 				</div>

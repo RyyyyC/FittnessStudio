@@ -60,7 +60,7 @@ body .Glowna_1 {
   display: flex;
 }
 
-body .Glowna_1 .PrawyBlok {
+body .Glowna_1 .PrawyBok {
   background-image: url("grafiki/prawyBok.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,7 +73,7 @@ body .Glowna_1 .PrawyBlok {
   padding: 0;
 }
 
-body .Glowna_1 .PrawyBlok .prawyTekst {
+body .Glowna_1 .PrawyBok .prawyTekst {
   height: 60vh;
   width: 35vw;
   text-align: center;
@@ -84,7 +84,7 @@ body .Glowna_1 .PrawyBlok .prawyTekst {
   float: right;
 }
 
-body .Glowna_1 .PrawyBlok .pionowyTekst {
+body .Glowna_1 .PrawyBok .pionowyTekst {
   width: 8vw;
   margin-left: 5vw;
   text-align: center;
@@ -175,6 +175,16 @@ body .dataKarnet .dataKarentInput {
   font-size: 3vh;
 }
 
+body .sekcja_1, body .sekcja_2 {
+  background-image: url("grafiki/background-body.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+body .rotated-background {
+  background-image: url("grafiki/background-body-rotate.png");
+}
+
 body .Glowna_2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -244,7 +254,6 @@ body .Glowna_2 .LewyBok {
 
 body .Glowna_2 .LewyBok .Animacja2 {
   margin-left: 2vw;
-  margin-bottom: 5vh;
   height: 50vh;
   width: 35vw;
   text-align: center;
@@ -252,27 +261,160 @@ body .Glowna_2 .LewyBok .Animacja2 {
   color: #969090;
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
-  -webkit-transform: scaleY(0.6) scaleX(0.6);
-          transform: scaleY(0.6) scaleX(0.6);
+  -webkit-transform: scaleY(0.9) scaleX(0.9);
+          transform: scaleY(0.9) scaleX(0.9);
 }
 
-body .Glowna_2 .LewyBok .Animacja2 .Akutalnosci {
-  font-size: 36px;
-  background-color: #AFAEAE;
+body .Glowna_3 {
+  height: 87vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .Glowna_3 .LewyBok {
+  height: 87vh;
+}
+
+body .Glowna_3 .LewyBok .Animacja3 {
+  margin: 15vh;
+  margin-left: 2vw;
+  height: 50vh;
+  width: 50vw;
+  text-align: center;
+  font-family: Rationale;
+  color: #969090;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scaleY(0.9) scaleX(0.9);
+          transform: scaleY(0.9) scaleX(0.9);
+}
+
+body .Glowna_3 .PrawyBok {
+  width: 50vw;
+  height: 87vh;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc {
+  margin-top: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .textDane {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .textDane input[type=text] {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1.4vw;
+  font-family: Rationale;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup {
+  width: 30vw;
+  height: 40vh;
+  background-image: url("grafiki/dane-zakup.png");
+  background-size: 30vw 40vh;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px 0;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_2, body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_3, body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_4, body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .linia_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 25px 0;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .shortinput {
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background: #C4C4C4;
+  border: none;
   width: 10vw;
-  height: 55vh;
-  -webkit-box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  height: 5vh;
 }
 
-body .Glowna_2 .LewyBok .Animacja2 .Akutalnosci .Akutalnosci_PNG {
-  margin: 1vw;
-  width: 8vw;
-  height: 8vw;
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .midinput {
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background: #C4C4C4;
+  border: none;
+  width: 15vw;
+  height: 5vh;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .halfinput {
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background: #C4C4C4;
+  border: none;
+  width: 13vw;
+  height: 5vh;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .daneZakup .long {
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background: #C4C4C4;
+  border: none;
+  width: 27.5vw;
+  height: 5vh;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .dalej {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30vw;
+  text-align: center;
+  line-height: 5vh;
+}
+
+body .Glowna_3 .PrawyBok .PrawyBokCalosc .dalej .przyciskDalej {
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 10vw;
+  height: 5vh;
+  color: #000000;
+  font-size: 1.4vw;
+  font-family: Rationale;
+  background: #C4C4C4;
 }
 
 body .Proces {
-  margin-top: 3vh;
+  padding-top: 3vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
