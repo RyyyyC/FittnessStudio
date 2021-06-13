@@ -115,7 +115,7 @@
 					</section>
 					
 				</div>
-				<div class="PrawyBlok">
+				<div class="PrawyBok">
 					<div class="pionowyTekst">
 						PRZYKLAD
 					</div>

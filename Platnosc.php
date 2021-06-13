@@ -1,10 +1,17 @@
 <?php
+    error_reporting(0);
     session_start();
-    $_SESSION['imie'] = $_POST['imie'];
-    $_SESSION['nazwisko'] = $_POST['nazwisko'];
-    $_SESSION['email'] = $_POST['email'];
-    $_SESSION['numerTlefonu'] = $_POST['numer-telefonu'];
-    $_SESSION['numerKierunkowy'] = $_POST['numer_kierunkowy'];
+    $_SESSION['data-rozpoczecia'] = $_POST['data-rozpoczecia'];//
+    $_SESSION['typKarnet'] = $_POST['typKarnet'];//
+    $_SESSION['kosztKarnet'] = $_POST['kosztKarnet'];//
+    
+    $_SESSION['imie'] = $_POST['imie'];//
+    $_SESSION['nazwisko'] = $_POST['nazwisko'];//
+    $_SESSION['email'] = $_POST['email'];//
+    $_SESSION['numerTlefonu'] = $_POST['numer-telefonu'];//
+    $_SESSION['numerKierunkowy'] = $_POST['numer_kierunkowy'];//
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,6 +24,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+    <form method="POST" action="Podsumowanie.php">
     <div class="Naglowek">
 		<div style="width: 70vw;">
 			<p id = "Logo">FITNESSSTUDIO</p>
@@ -35,7 +43,7 @@
 	</div>
     <div class="Proces">
         <div class="box">
-            <p id="processing"class="tekst-box two-line">WYBIERZ KARNET</p>
+            <p class="tekst-box two-line">WYBIERZ KARNET</p>
         </div>
         <div class="strzalka"> --- </div>
         <div class="box">
@@ -43,7 +51,7 @@
         </div>
         <div class="strzalka"> --- </div>
         <div class="box">
-            <p class="tekst-box">PLATNOSC</p>
+            <p id="processing" class="tekst-box">PLATNOSC</p>
         </div>
         <div class="strzalka"> --- </div>
         <div class="box">
@@ -52,7 +60,7 @@
     </div>
     <div class="Glowna_4">
         <div class="LewyBok">
-            <section class="Animacja3">
+            <section class="Animacja4">
                 <svg width="568" height="518" viewBox="0 0 568 518" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0)">
                         <path d="M488.79 47.5671L13.5508 186.032L26.1385 229.236L501.378 90.7706L488.79 47.5671Z" fill="#3F3D56"/>
@@ -89,19 +97,23 @@
         </div>
         <div class="PrawyBok">
             <div class="PrawyBokCalosc">
-                <form class="danePlatnicze" method="POST" action="Podsumowanie.php">
-                    <div class="linia_1">
-                        <div><input type="text" class="halfinput" name="numer-karty"placeholder="Numer Karty"></div>
-                        <div><input type="text" class="halfinput" name=""placeholder="CVC"></div>
+                    <div class="danePlatnicze">
+                        <div class="linia_1">
+                            <div><input type="text" class="halfinput" name="numer-karty"placeholder="Numer Karty"></div>
+                            <div><input type="text" class="halfinput" name="cvc"placeholder="CVC"></div>
+                        </div>
+                        <div class="linia_2">
+                            <div><input type="text" class="halfinput" name="data-karta"placeholder="Data dd/yy"></div>
+                            <div><input type="text" class="halfinput" name="imie-nazwisko-karta"placeholder="Imie Nazwisko Posiadacza"></div>
+                        </div>
+                        <input type="submit" value="KUP" class="przyciskKup">
                     </div>
-                    <div class="linia_2">
-                        <div><input type="text" class="halfinput" name=""placeholder="Data dd/yy"></div>
-                        <div><input type="text" class="halfinput" name=""placeholder="Imie Nazwisko Posiadacza"></div>
-                    </div>
-                    <input type="submit" value="KUP" class="przyciskKup">
-                </form>
+                    
+                    
+                
             </div>
         </div>
     </div>
+    </form>
     </body>
 </html>

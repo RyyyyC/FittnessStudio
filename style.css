@@ -266,7 +266,7 @@ body .Glowna_2 .LewyBok .Animacja2 {
 }
 
 body .Glowna_3 {
-  height: 87vh;
+  height: 71vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,7 +276,7 @@ body .Glowna_3 {
 
 body .Glowna_3 .LewyBok {
   width: 50vw;
-  height: 87vh;
+  height: 71vh;
 }
 
 body .Glowna_3 .LewyBok .Animacja3 {
@@ -295,7 +295,7 @@ body .Glowna_3 .LewyBok .Animacja3 {
 
 body .Glowna_3 .PrawyBok {
   width: 50vw;
-  height: 87vh;
+  height: 71vh;
 }
 
 body .Glowna_3 .PrawyBok .PrawyBokCalosc {
@@ -400,8 +400,8 @@ body .Glowna_3 .dalej .przyciskDalej {
   background: #C4C4C4;
 }
 
-.Glowna_4 {
-  height: 87vh;
+body .Glowna_4 {
+  height: 71vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,14 +409,13 @@ body .Glowna_3 .dalej .przyciskDalej {
       justify-content: space-around;
 }
 
-.Glowna_4 .LewyBok {
+body .Glowna_4 .LewyBok {
   width: 50vw;
-  height: 87vh;
+  height: 71vh;
 }
 
-.Glowna_4 .LewyBok .Animacja3 {
+body .Glowna_4 .LewyBok .Animacja4 {
   margin: 15vh;
-  margin-left: 2vw;
   height: 50vh;
   width: 50vw;
   text-align: center;
@@ -428,12 +427,12 @@ body .Glowna_3 .dalej .przyciskDalej {
           transform: scaleY(0.9) scaleX(0.9);
 }
 
-.Glowna_4 .PrawyBok {
+body .Glowna_4 .PrawyBok {
   width: 50vw;
-  height: 87vh;
+  height: 71vh;
 }
 
-.Glowna_4 .PrawyBok .PrawyBokCalosc {
+body .Glowna_4 .PrawyBok .PrawyBokCalosc {
   margin-top: 6vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -449,7 +448,7 @@ body .Glowna_3 .dalej .przyciskDalej {
       flex-wrap: wrap;
 }
 
-.Glowna_4 .PrawyBok .danePlatnicze {
+body .Glowna_4 .PrawyBok .danePlatnicze {
   margin-top: 15vh;
   width: 30vw;
   height: 20vh;
@@ -457,7 +456,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   background-size: 30vw 20vh;
 }
 
-.Glowna_4 .PrawyBok .danePlatnicze .linia_1, .Glowna_4 .PrawyBok .danePlatnicze .linia_2 {
+body .Glowna_4 .PrawyBok .danePlatnicze .linia_1, body .Glowna_4 .PrawyBok .danePlatnicze .linia_2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,7 +465,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   margin: 25px 0;
 }
 
-.Glowna_4 .PrawyBok .danePlatnicze .linia_1 .halfinput, .Glowna_4 .PrawyBok .danePlatnicze .linia_2 .halfinput {
+body .Glowna_4 .PrawyBok .danePlatnicze .linia_1 .halfinput, body .Glowna_4 .PrawyBok .danePlatnicze .linia_2 .halfinput {
   color: #000000;
   font-size: 1.4vw;
   font-family: Rationale;
@@ -476,7 +475,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   height: 5vh;
 }
 
-.Glowna_4 .PrawyBok .danePlatnicze .przyciskKup {
+body .Glowna_4 .PrawyBok .danePlatnicze .przyciskKup {
   font-size: 1.4vw;
   font-family: Rationale;
   color: #FFFFFF;
@@ -485,14 +484,14 @@ body .Glowna_3 .dalej .przyciskDalej {
   background-image: url("grafiki/przycisk-kup.png");
 }
 
-.Glowna_4 .PrawyBok .daneZakup {
+body .Glowna_4 .PrawyBok .daneZakup {
   width: 30vw;
   height: 40vh;
   background-image: url("grafiki/dane-zakup.png");
   background-size: 30vw 40vh;
 }
 
-.Glowna_4 .PrawyBok .daneZakup .linia_1 {
+body .Glowna_4 .PrawyBok .daneZakup .linia_1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,7 +501,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   margin: 25px 0;
 }
 
-.Glowna_4 .PrawyBok .daneZakup .linia_2, .Glowna_4 .PrawyBok .daneZakup .linia_3, .Glowna_4 .PrawyBok .daneZakup .linia_4, .Glowna_4 .PrawyBok .daneZakup .linia_5 {
+body .Glowna_4 .PrawyBok .daneZakup .linia_2, body .Glowna_4 .PrawyBok .daneZakup .linia_3, body .Glowna_4 .PrawyBok .daneZakup .linia_4, body .Glowna_4 .PrawyBok .daneZakup .linia_5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -511,7 +510,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   margin: 25px 0;
 }
 
-.Glowna_4 .PrawyBok .daneZakup .shortinput {
+body .Glowna_4 .PrawyBok .daneZakup .shortinput {
   color: #000000;
   font-size: 1.4vw;
   font-family: Rationale;
@@ -521,7 +520,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   height: 5vh;
 }
 
-.Glowna_4 .PrawyBok .daneZakup .midinput {
+body .Glowna_4 .PrawyBok .daneZakup .midinput {
   color: #000000;
   font-size: 1.4vw;
   font-family: Rationale;
@@ -531,7 +530,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   height: 5vh;
 }
 
-.Glowna_4 .PrawyBok .daneZakup .halfinput {
+body .Glowna_4 .PrawyBok .daneZakup .halfinput {
   color: #000000;
   font-size: 1.4vw;
   font-family: Rationale;
@@ -541,7 +540,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   height: 5vh;
 }
 
-.Glowna_4 .PrawyBok .daneZakup .long {
+body .Glowna_4 .PrawyBok .daneZakup .long {
   color: #000000;
   font-size: 1.4vw;
   font-family: Rationale;
@@ -551,7 +550,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   height: 5vh;
 }
 
-.Glowna_4 .PrawyBok .dalej {
+body .Glowna_4 .PrawyBok .dalej {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -563,7 +562,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   line-height: 5vh;
 }
 
-.Glowna_4 .PrawyBok .dalej .przyciskDalej {
+body .Glowna_4 .PrawyBok .dalej .przyciskDalej {
   border-radius: 5px;
   width: 10vw;
   height: 5vh;
@@ -573,7 +572,53 @@ body .Glowna_3 .dalej .przyciskDalej {
   background: #C4C4C4;
 }
 
-.Proces {
+body .Glowna_5 {
+  height: 71vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .Glowna_5 .LewyBok {
+  width: 50vw;
+  height: 71vh;
+}
+
+body .Glowna_5 .LewyBok .Animacja5 {
+  margin: 17vh 2vw;
+  height: 50vh;
+  width: 30vw;
+  text-align: center;
+  font-family: Rationale;
+  color: #969090;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scaleY(0.9) scaleX(0.9);
+          transform: scaleY(0.9) scaleX(0.9);
+}
+
+body .Glowna_5 .PrawyBok {
+  width: 50vw;
+  height: 71vh;
+}
+
+body .Glowna_5 .PrawyBok .PrawyBokCalosc {
+  margin-top: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .Proces {
   padding-top: 3vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -585,7 +630,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   height: 10vh;
 }
 
-.Proces .box {
+body .Proces .box {
   width: 15vw;
   height: 10vh;
   background-color: #C4C4C4;
@@ -593,7 +638,7 @@ body .Glowna_3 .dalej .przyciskDalej {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.Proces .box .tekst-box {
+body .Proces .box .tekst-box {
   font-size: 2.5vw;
   line-height: 10vh;
   font-family: Rationale;
@@ -601,11 +646,11 @@ body .Glowna_3 .dalej .przyciskDalej {
   color: #A39C9C;
 }
 
-.Proces .box .two-line {
+body .Proces .box .two-line {
   line-height: 5vh;
 }
 
-.Proces .strzalka {
+body .Proces .strzalka {
   width: 10vw;
   height: 10vh;
   font-size: 3vw;
@@ -613,7 +658,7 @@ body .Glowna_3 .dalej .przyciskDalej {
   text-align: center;
 }
 
-a:visited, a:link {
+body a:visited, body a:link {
   text-decoration: none;
   color: white;
 }
@@ -621,5 +666,65 @@ a:visited, a:link {
 * {
   padding: 0px;
   margin: 0px;
+}
+
+#Zaloguj {
+  color: #928B8B;
+  font-family: Rationale;
+  font-size: 6.8vh;
+  float: right;
+  padding-right: 25vh;
+  padding-top: 7.4vh;
+}
+
+#Kwiatek {
+  float: right;
+  margin-top: 0vh;
+}
+
+#Komputer {
+  position: absolute;
+  padding-top: 0.5vh;
+  margin-left: 0vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+form {
+  position: absolute;
+  padding-left: 17vw;
+  padding-top: 14vh;
+  font-family: Rationale;
+  font-size: 2vh;
+}
+
+#Logow {
+  position: absolute;
+  padding-left: 50vw;
+  padding-top: 15vh;
+}
+
+#Zarejestruj {
+  text-align: center;
+  color: #928B8B;
+  font-family: Rationale;
+  font-size: 6.8vh;
+  padding-top: 3vh;
+}
+
+#Lewa {
+  position: absolute;
+}
+
+#Prawa {
+  padding-top: 3vh;
+  padding-left: 20vw;
+  position: absolute;
+  padding-right: 10vw;
+}
+
+#rejestrowanie {
+  padding-left: 49vw;
+  padding-top: 6vh;
 }
 /*# sourceMappingURL=style.css.map */

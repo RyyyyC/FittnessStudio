@@ -206,12 +206,12 @@ body{
         }
     }
     .Glowna_3{
-        height: 87vh;
+        height: 71vh;
         display: flex;
         justify-content: space-around;
         .LewyBok{
             width: 50vw;
-            height: 87vh;
+            height: 71vh;
             .Animacja3{
                 margin: 15vh;
                 margin-left:2vw;
@@ -226,7 +226,7 @@ body{
         }
         .PrawyBok{
             width: 50vw;
-            height: 87vh;
+            height: 71vh;
             .PrawyBokCalosc{
                 margin-top: 12vh;
                 display: flex;
@@ -309,19 +309,16 @@ body{
                         background: #C4C4C4;
                     }
                 }
-            }
-        }
+    }
     .Glowna_4{
-        
-        height: 87vh;
+        height: 71vh;
         display: flex;
         justify-content: space-around;
         .LewyBok{
             width: 50vw;
-            height: 87vh;
-            .Animacja3{
+            height: 71vh;
+            .Animacja4{
                 margin: 15vh;
-                margin-left:2vw;
                 height: 50vh;
                 width: 50vw;
                 text-align: center;
@@ -333,7 +330,7 @@ body{
         }
         .PrawyBok{
             width: 50vw;
-            height: 87vh;
+            height: 71vh;
             .PrawyBokCalosc{
                 margin-top: 6vh;
                 display: flex;
@@ -444,7 +441,40 @@ body{
                     }
                 }
             }
+    }
+    .Glowna_5{
+        height: 71vh;
+        display: flex;
+        justify-content: space-around;
+        .LewyBok{
+            width: 50vw;
+            height: 71vh;
+            .Animacja5{
+                margin: 17vh 2vw;
+                height: 50vh;
+                width: 30vw;
+                text-align: center;
+                font-family: Rationale;
+                color: #969090;
+                transform-origin: 0 0;
+                transform: scaleY(0.9) scaleX(0.9);
+            }
         }
+        .PrawyBok{
+            width: 50vw;
+            height: 71vh;
+            .PrawyBokCalosc{
+                margin-top: 6vh;
+                display: flex;
+                justify-content: space-around;
+                width: 40vw;
+                height: 60vh;
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    
     .Proces{
         padding-top: 3vh;
         justify-content: center;
@@ -479,13 +509,62 @@ body{
         text-decoration: none;
         color: white;
     }
-* {
+}
+*{
     padding: 0px;
     margin: 0px;
- }
-
-
-
-
-
-
+}
+#Zaloguj{
+	color: #928B8B;
+	font-family: Rationale;
+	font-size: 6.8vh;
+	float: right;
+	padding-right: 25vh;
+	padding-top: 7.4vh;
+	
+}
+#Kwiatek{
+	float:right;
+	margin-top: 0vh;
+	
+}
+#Komputer{
+	
+	position: absolute;
+	padding-top: 0.5vh;
+	margin-left: 0vw;
+	flex-wrap: wrap;
+}
+form{
+	position: absolute;
+	padding-left: 17vw;
+	padding-top: 14vh;
+	font-family: Rationale;
+	font-size: 2vh;
+	
+}
+#Logow{
+	position: absolute;
+	padding-left: 50vw;
+	padding-top: 15vh;
+}
+#Zarejestruj{
+	text-align:center;
+	color: #928B8B;
+	font-family: Rationale;
+	font-size: 6.8vh;
+	padding-top: 3vh;
+}
+#Lewa{
+	position: absolute;
+}
+#Prawa{
+	padding-top: 3vh;
+	padding-left:20vw;
+	position: absolute;
+	padding-right: 10vw;
+}
+#rejestrowanie{
+	padding-left: 49vw;
+	padding-top: 6vh;
+}
